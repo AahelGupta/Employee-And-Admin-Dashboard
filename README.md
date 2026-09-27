@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:38BDF8&height=180&section=header&text=Employee%20%26%20Admin%20Dashboard&fontSize=42&animation=twinkling&desc=Enterprise%20Task%20Management%20Portal%20built%20with%20React.js)
+  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:38BDF8&height=180&section=header&text=Employee%20and%20Admin%20Dashboard&fontSize=40&animation=twinkling&desc=Enterprise%20Task%20Management%20Portal%20built%20with%20React.js)
 
   <br/>
 
