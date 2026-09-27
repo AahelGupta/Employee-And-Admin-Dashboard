@@ -1,16 +1,65 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ![Capsule Header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:38BDF8&height=180&section=header&text=Employee%20%26%20Admin%20Dashboard&fontSize=42&animation=twinkling&desc=Enterprise%20Task%20Management%20Portal%20built%20with%20React.js)
 
-Currently, two official plugins are available:
+  <br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<br/>
 
-## Expanding the ESLint configuration
+## 📌 Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Employee & Admin Dashboard** is a enterprise task management portal engineered with **React.js**, **Context API**, and **Tailwind CSS**. It provides dual-role authentication workflows for **Admins** (task creation, employee assignment mapping, global progress metrics) and **Employees** (interactive task lifecycle state transitions).
+
+---
+
+## ✨ Key Features
+
+- 🔑 **Dual-Role Authentication**: Distinct interactive portals for Admins and Employees.
+- ⚡ **Global State Management**: React Context API architecture preventing prop-drilling.
+- 💾 **Client-Side Persistence**: Web Storage API (`localStorage`) integration simulating zero-latency session retention.
+- 📊 **Task Lifecycle Tracking**: Categorized task states (*New*, *Accepted*, *Completed*, *Failed*).
+
+---
+
+## 🛠️ Project Architecture
+
+```
+Employee-And-Admin-Dashboard/
+├── src/
+│   ├── components/
+│   │   ├── Auth/           # Login & Session views
+│   │   ├── Dashboard/      # Admin & Employee Dashboard containers
+│   │   └── Task/           # Task lists, cards, creation forms
+│   ├── context/            # AuthProvider & Global State
+│   └── utils/              # LocalStorage helpers & data seeding
+├── public/                 # Static assets
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/AahelGupta/Employee-And-Admin-Dashboard.git
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
